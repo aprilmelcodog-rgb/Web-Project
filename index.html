@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>April Mel Codog — Portfolio</title>
+  <link rel="stylesheet" href="styles.css"> ">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ==================== SIDEBAR ==================== -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-name">April Mel<br><span>Codog</span></div>
+     
+    </div>
+
+    <ul class="nav-tabs">
+      <li>
+        <button class="tab-btn active" data-tab="home">
+          <span class="tab-icon">⌂</span> Home
+        </button>
+      </li>
+      <li>
+        <button class="tab-btn" data-tab="about">
+          <span class="tab-icon">◈</span> About Me
+        </button>
+      </li>
+      <li>
+        <button class="tab-btn" data-tab="skills">
+          <span class="tab-icon">◇</span> Skills
+        </button>
+      </li>
+      <li>
+        <button class="tab-btn" data-tab="experience">
+          <span class="tab-icon">◉</span> Experience
+        </button>
+      </li>
+      <li>
+        <button class="tab-btn" data-tab="education">
+          <span class="tab-icon">◎</span> Education
+        </button>
+      </li>
+      <li>
+        <button class="tab-btn" data-tab="contact">
+          <span class="tab-icon">◌</span> Contact
+        </button>
+      </li>
+    </ul>
+
+    <div class="sidebar-footer">
+      &copy; 2025 April Mel Codog
+    </div>
+  </aside>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main class="main">
+
+    <!-- ===== HOME ===== -->
+    <section class="tab-panel active" id="tab-home">
+      <div class="home-layout">
+        <div class="home-text">
+          <h1>Hello, I'm<br><em>April Mel</em><br>Codog</h1>
+          <div class="divider"></div>
+          <p class="subtitle">
+
+I am a hardworking and creative individual who is passionate about web design. I enjoy turning ideas into simple and functional designs. I am always open to learning new things and taking on challenges to improve my skills. I believe that with dedication and a positive attitude, I can achieve great things in the world of web design.</p>
+
+          <div class="home-actions">
+            <button class="btn btn-gold" onclick="switchTab('experience')">View My Work</button>
+            <button class="btn btn-outline" onclick="switchTab('contact')">Get in Touch</button>
+          </div>
+        </div>
+
+        <div class="avatar-box">
+  <img src="mel.png" style="width: 350px; height: auto;"> <div class="avatar-sub">Web Developer</div>
+</div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="tab-panel" id="tab-about">
+      <div class="eyebrow">About Me</div>
+      <h2>A little about <em>who I am</em></h2>
+      <div class="divider"></div>
+
+      <div class="about-layout">
+        <div>
+          <p>Hi, I'm <strong style="color: var(--rose-pale);">April Mel Codog</strong> — Hi, I’m April Mel Codog, a web developer who enjoys creating simple and meaningful websites. I’m passionate about combining design and functionality, and I’m always learning new skills to improve and grow in the field.</p>
+        </div>
+
+        <div>
+          <div class="value-card">
+            <div class="value-card-num">01</div>
+            <h4>Clean Code</h4>
+            <p>I write code that is readable, maintainable, and built to scale — not just to ship.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card-num">02</div>
+            <h4>Performance First</h4>
+            <p>Every millisecond matters. I optimise for real-world performance from the very start.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card-num">03</div>
+            <h4>User-Centred Design</h4>
+            <p>Technology serves people. The user experience is always my north star.</p>
+          </div>
+          <div class="value-card">
+            <div class="value-card-num">04</div>
+            <h4>Always Learning</h4>
+            <p>The web evolves fast — staying curious and adaptable is my greatest strength.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="tab-panel" id="tab-skills">
+      <div class="eyebrow">Skills</div>
+      <h2>What I <em>work with</em></h2>
+      <div class="divider"></div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-category-title">Microsoft Office</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Word</span>
+            <span class="skill-tag">Excel</span>
+            <span class="skill-tag">PowerPoint</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Microsoft Word</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Document Formatting</span>
+            <span class="skill-tag">Styles</span>
+            <span class="skill-tag">Tables</span>
+            <span class="skill-tag">Mail Merging</span>
+            <span class="skill-tag">Templates</span>
+            <span class="skill-tag">Reporters</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Microsoft Excel</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Analysis</span>
+            <span class="skill-tag">Pivot Tables</span>
+            <span class="skill-tag">Charts</span>
+            <span class="skill-tag">Formulas</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Microsoft PowerPoint</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Presentation Design</span>
+            <span class="skill-tag">Animations</span>
+            <span class="skill-tag">Transitions</span>
+            <span class="skill-tag">Slide Shows</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title">Tools & Others</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">Visual Studio Code</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">CSS/HTML</span>
+          </div>
+        </div>
+
+        <div class="skill-category" style="grid-column: 1 / -1;">
+          <div class="skill-category-title">Proficiency</div>
+          <div style="margin-top: 0.5rem;">
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>Microsoft Office</span><span>95%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>Tools & Others</span><span>50%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 50%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="tab-panel" id="tab-experience">
+      <div class="eyebrow">Experience</div>
+      <h2>Where I've <em>worked</em></h2>
+      <div class="divider"></div>
+
+      <div class="exp-timeline">
+
+        <div class="exp-entry">
+          <div class="exp-period">2022-2023 </div>
+          <div class="exp-role">Quality Control Encoder</div>
+          <div class="exp-company">Philippine Kenko Corp.&mdash; Mactan Cebu, PH</div>
+          <p class="exp-desc"><div class="exp-desc">
+    <p>Responsible for high-accuracy data management and verification at Philippine Kenko Corp.</p>
+    
+    <div class="task-grid">
+        <div class="task-item">
+            <button class="task-btn">Data Encoding</button>
+            <div class="task-content">Inputting physical documents into digital databases and spreadsheets.</div>
+        </div>
+        
+        <div class="task-item">
+            <button class="task-btn">Quality Checking</button>
+            <div class="task-content">Reviewing entries for duplicates, errors, or missing details.</div>
+        </div>
+
+        <div class="task-item">
+            <button class="task-btn">Data Validation</button>
+            <div class="task-content">Ensuring all entries follow strict company standards and formats.</div>
+        </div>
+
+        <div class="task-item">
+            <button class="task-btn">Documentation</button>
+            <div class="task-content">Maintaining organized records and reporting discrepancies.</div>
+        </div>
+
+        <div class="task-item">
+            <button class="task-btn">Coordination</button>
+            <div class="task-content">Collaborating with production teams to clarify unclear data.</div>
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="tab-panel" id="tab-education">
+      <div class="eyebrow">Education</div>
+      <h2>My <em>academic</em> journey</h2>
+      <div class="divider"></div>
+
+      <div class="edu-grid">
+
+        <div class="edu-card">
+          <div class="edu-year">2011 — 2016</div>
+          <div class="edu-degree">Primary Education</div>
+          <div class="edu-school">Tagbubunga Villaba, Leyte</div>
+          <p class="edu-desc">Graduated with honors. </p>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-year">2016- 2020</div>
+          <div class="edu-degree">Junior High School</div>
+          <div class="edu-school">Lomonon Palompon, Leyte</div>
+          <p class="edu-desc">Graduated with honors. </p>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-year">2020- 2022</div>
+          <div class="edu-degree">Senior High School</div>
+          <div class="edu-school">Cielito Zamora Senior High School, Nort Caloocan City</div>
+          <p class="edu-desc">Graduated with honors. </p>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-year">2024-Present</div>
+          <div class="edu-degree">Bachelor of Industrial Technology Major in Computer Technology</div>
+          <div class="edu-school">Cebu Technological University</div>
+          <p class="edu-desc">Currently pursuing a degree in Computer Technology, focusing on software development, networking, and IT systems. Expected to graduate in 2028.</p>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="tab-panel" id="tab-contact">
+      <div class="eyebrow">Contact</div>
+      <h2>Let's <em>connect</em></h2>
+      <div class="divider"></div>
+
+      <div class="contact-layout">
+
+        <div>
+          <p>I'm always open to new opportunities, collaborations, or simply a good conversation about web development. Feel free to reach out through any of the channels below.</p>
+
+          <div class="contact-info-item">
+            <span class="contact-icon">✉</span>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <p class="contact-info-value">aprilmel.codog@email.com</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-icon">◎</span>
+            <div>
+              <div class="contact-info-label">Location</div>
+              <p class="contact-info-value">Nivel Hills Lahug, Cebu City, PH</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-icon">◇</span>
+            <div>
+              <div class="contact-info-label">LinkedIn</div>
+              <p class="contact-info-value">linkedin.com/in/aprilmelcodog</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-icon">◈</span>
+            <div>
+              <div class="contact-info-label">instagram</div>
+              <p class="contact-info-value">instagram/aprilmen.c_09</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="contact-form">
+            <div class="form-group">
+              <label class="form-label">Your Name</label>
+              <input type="text" class="form-input" placeholder="e.g. Juan dela Cruz">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-input" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Subject</label>
+              <input type="text" class="form-input" placeholder="Project inquiry, collaboration...">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea class="form-textarea" rows="5" placeholder="Tell me about your project or idea..."></textarea>
+            </div>
+            <button class="btn btn-gold" style="align-self: flex-start; margin-top: 0.5rem;">Send Message →</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+  function switchTab(tabId) {
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.tab === tabId);
+    });
+    document.querySelectorAll('.tab-panel').forEach(panel => {
+      panel.classList.toggle('active', panel.id === 'tab-' + tabId);
+    });
+    document.querySelector('.main').scrollTop = 0;
+  }
+
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+  });
+</script>
+
+</body>
+</html>
